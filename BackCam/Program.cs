@@ -10,6 +10,14 @@ namespace BackCam
     {
         static void Main(string[] args)
         {
+            try
+            {
+                StartUp.Configure();
+                Saver.Save(Cam.TakeScreenShot());
+            }
+            catch
+            {
+            }
         }
     }
 }

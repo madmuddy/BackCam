@@ -1,1 +1,5 @@
 C:\Users\Malik\source\repos\BackCam\BackCam\bin\Debug\BackCam.exe.config
+C:\Users\Malik\source\repos\BackCam\BackCam\bin\Debug\BackCam.exe
+C:\Users\Malik\source\repos\BackCam\BackCam\bin\Debug\BackCam.pdb
+C:\Users\Malik\source\repos\BackCam\BackCam\obj\Debug\BackCam.exe
+C:\Users\Malik\source\repos\BackCam\BackCam\obj\Debug\BackCam.pdb
