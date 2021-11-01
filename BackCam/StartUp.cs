@@ -16,6 +16,7 @@ namespace BackCam
                 Consts.programPath = Directory.GetCurrentDirectory();
                 Consts.tempPath = Path.GetTempPath();
                 Consts.savePath = Path.Combine(Consts.tempPath, Consts.saveFileName);
+                Consts.videoSavePath = Path.Combine(Consts.tempPath, Consts.videoSaveFileName);
 
                 return 1;
             }

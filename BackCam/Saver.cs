@@ -14,9 +14,25 @@ namespace BackCam
         {
             try
             {
+                Consts.isSaving = true;
                 Random rand = new Random();
 
                 image.Save(Consts.savePath + rand.Next(0,999).ToString());
+                Consts.isSaving = false;
+
+                return 1;
+            }
+            catch
+            {
+                return 0;
+            }
+        }
+
+        public static int SaveVideo(Bitmap image, int count)
+        {
+            try
+            {
+                image.Save(Consts.videoSavePath + count.ToString());
 
                 return 1;
             }
